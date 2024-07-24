@@ -2,6 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
+
+@font-face {
+    font-family: 'BaselGrotesk';
+    src: url('assets/fonts/Basel-Grotesk-Book.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'BaselGrotesk';
+    src: url('assets/fonts/Basel-Grotesk-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  body {
+    font-family: 'BaselGrotesk', sans-serif;
     background-color: #161715;
-}
+  }
+  
+  
