@@ -2,9 +2,10 @@ import { Component, HostListener, OnInit } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { ToolbarComponent } from './views/common/toolbar/toolbar.component';
 import { HeadComponent } from './views/common/head/head.component';
+import { ContainerComponent } from './views/swamp/container/container.component';
 
 
-const components=[HeadComponent,ToolbarComponent]
+const components=[HeadComponent,ToolbarComponent, ContainerComponent]
 
 @Component({
   selector: 'app-root',
