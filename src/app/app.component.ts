@@ -1,11 +1,15 @@
 import { Component, HostListener, OnInit } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { ToolbarComponent } from './views/common/toolbar/toolbar.component';
+import { HeadComponent } from './views/common/head/head.component';
+
+
+const components=[HeadComponent,ToolbarComponent]
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, ToolbarComponent],
+  imports: [RouterOutlet, components],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
 })
