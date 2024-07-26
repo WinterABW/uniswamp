@@ -1,7 +1,13 @@
-<section class="flex flex-col w-fit m-auto mt-3 items-center bg-[#141414] p-2 rounded-3xl gap-1 relative">
-    <app-selector/>
-    <button class="p-2 bg-[#1A1A1A] rounded-xl absolute z-50 border-4 border-[#141414] top-1/2 transform -translate-y-1/2">
-        <img src="assets/icons/arrow-changetoken.svg" alt="change">
+<section class="bg-[#141414] p-2 rounded-3xl m-auto mt-3 w-fit flex flex-col justify-center items-center gap-1">
+    <div class="flex flex-col   items-center   gap-1 relative">
+        <app-selector />
+        <button
+            class="p-2 bg-[#1A1A1A] rounded-xl absolute z-50 border-4 border-[#141414] top-1/2 transform -translate-y-1/2">
+            <img src="assets/icons/arrow-changetoken.svg" alt="change">
+        </button>
+        <app-selector />
+    </div>
+    <button class="bg-[#311C31] text-[#FC72EB] rounded-2xl py-4 w-full text-xl">
+        Connect wallet
     </button>
-    <app-selector/>
 </section>
